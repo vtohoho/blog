@@ -35,7 +35,7 @@ define('DB_USER', 'avffexkstluncd');
 define('DB_PASSWORD', '2823a540d85b41cfac2472e70f9d5b2cf9f07e3e5ead3d8e3d46b54017689259');
 
 /** MySQL のホスト名 */
-define('DB_HOST', 'ec2-184-73-169-163.compute-1.amazonaws.com');
+define('DB_HOST', 'Qec2-184-73-169-163.compute-1.amazonaws.com');
 
 /** データベースのテーブルを作成する際のデータベースの文字セット */
 define('DB_CHARSET', 'utf8');
@@ -52,6 +52,7 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
+/*
 define('AUTH_KEY',         'put your unique phrase here');
 define('SECURE_AUTH_KEY',  'put your unique phrase here');
 define('LOGGED_IN_KEY',    'put your unique phrase here');
@@ -60,6 +61,18 @@ define('AUTH_SALT',        'put your unique phrase here');
 define('SECURE_AUTH_SALT', 'put your unique phrase here');
 define('LOGGED_IN_SALT',   'put your unique phrase here');
 define('NONCE_SALT',       'put your unique phrase here');
+*/
+
+define('AUTH_KEY',         'S*Kx_pwUW&],2!nD(}=N/Ok+2p&.U-XL$$%T,@DM!&E52nx.|]SgD~5+mhTNpNGv');
+define('SECURE_AUTH_KEY',  'z3rcYN,%U%7eY[D#u/. Q0:|Z_2TXm$B3lt!vNta^Jlkq,}T:%l;]E}ZeV&0}b2h');
+define('LOGGED_IN_KEY',    '{UIH oF$xy&*c}=]p|:PLIu&D) {a_C@O@!+K%8-bcwA4gZ%uejY3WS@jmo+?Nk^');
+define('NONCE_KEY',        'k&BrTRY=;+Jb*X`A3j.{:)!+*8WaC0MS}f;,d#agpZQXyyp7TaU`YALJcCN?aeaC');
+define('AUTH_SALT',        '8pm!H1mdj 7 [*?O|Iq tt4o3m|]r`3-4NYW=%#elaheMII5Y%Jh/z/`je^*Acjh');
+define('SECURE_AUTH_SALT', '`xmE&cg}AukP{e,O*mj7C$xY5+}M|b)-wZWo5yP~=RN!$+2&]8XI4]15VmI80>M2');
+define('LOGGED_IN_SALT',   '(WI_w3}{xTFf%L<vE!3?xHE|=|$.x.):j-Ha2p]Cn<%tVSI pBN@I@E{|sn/n;B>');
+define('NONCE_SALT',       'l 1=^_7O}nVc9~.af!Oifsm&b{gF&]w9,[my7G-y%V[og/y7*DBNm/=/BYg|`-{^');
+
+
 
 /**#@-*/
 
