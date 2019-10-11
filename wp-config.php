@@ -72,12 +72,6 @@ define('SECURE_AUTH_SALT', '`xmE&cg}AukP{e,O*mj7C$xY5+}M|b)-wZWo5yP~=RN!$+2&]8XI
 define('LOGGED_IN_SALT',   '(WI_w3}{xTFf%L<vE!3?xHE|=|$.x.):j-Ha2p]Cn<%tVSI pBN@I@E{|sn/n;B>');
 define('NONCE_SALT',       'l 1=^_7O}nVc9~.af!Oifsm&b{gF&]w9,[my7G-y%V[og/y7*DBNm/=/BYg|`-{^');
 
-@ini_set（ 'upload_max_filesize'、 '128M'）;
-@ini_set（ 'post_max_size'、 '128M'）;
-@ini_set（ 'memory_limit'、 '256M'）;
-@ini_set（ 'max_execution_time'、 '300'）;
-@ini_set（ 'max_input_time'、 '300'）;
-
 /**#@-*/
 
 /**
